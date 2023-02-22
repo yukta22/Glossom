@@ -1,0 +1,115 @@
+
+.carousel-item img{
+    height: 65vh;
+}
+
+
+.get-started {
+    background-image: url(Images/lights.jpg);
+    background-attachment: fixed;
+    height: 20vh;
+}
+
+.laptop img{
+    width: 30vw;
+    height: 40vh;
+}
+
+
+.what-we-do {
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(Images/media.jpg);
+    background-attachment: fixed;
+    height: 20vh;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.modal .fade .show {
+    padding-right: 0;
+}
+
+
+.grid {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-auto-rows: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid img {
+    
+    width: 70%;
+    height: 80%;
+    cursor: pointer;
+}
+
+
+.pages-header {
+    background-image: url(Images/image1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+
+
+.relative {
+    position: relative;
+}
+
+.aboutus-first img {
+    width: 20vw;
+    height: 50vh;
+    border-radius: 100%;
+    position: absolute;
+    top: -50px;
+}
+
+
+.testimonials .carousel-control-prev {
+    position: absolute;
+    left: -10%;
+}
+
+.testimonials .carousel-control-next {
+    position: absolute;
+    right: -10%;
+}
+
+.testimonials blockquote {
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.faq .card-header {
+    height: 2.5rem;
+    padding: 0;
+}
+
+.faq button {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.faq .btn-link, .faq .btn-link:hover, .faq .btn-link:active, .faq .btn-link:focus {
+    text-decoration: none;
+}
+
+.contact form .row {
+    padding: .5rem 0;
+}
+
+.staff img {
+    border-radius: 100%;
+    max-width: 100%;
+}
